@@ -38,7 +38,6 @@ header li {
 }
 .whole-block {
   margin-right: 10%;
-
   text-align: center;
 }
 
@@ -71,4 +70,26 @@ footer ul {
   text-decoration: none;
   list-style: none;
   padding-top: 150px;
+}
+
+@media screen and (max-width: 1024px) {
+  .inner {
+    font-size: 10px;
+    margin-left: 40%;
+    padding-top: 0px;
+    word-spacing: 0px;
+  }
+  .tags {
+    font-size: 60px;
+  }
+  #closing {
+    margin-right: 50%;
+  }
+  header {
+    font-size: 10px;
+  }
+  header img {
+    height: 25%;
+    width: 25%;
+  }
 }

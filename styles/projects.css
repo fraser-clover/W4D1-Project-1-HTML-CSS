@@ -70,3 +70,14 @@ footer ul {
   transform: translateY(-5px);
   transform: translateX(-10px);
 }
+
+@media screen and (max-width: 1024px) {
+  .cards > div {
+    width: 100%;
+    height: 30%;
+  }
+  .cards div img {
+    width: 100%;
+    height: 30%;
+  }
+}
