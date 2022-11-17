@@ -23,6 +23,15 @@ body {
   position: relative;
 }
 
+.quote {
+  position: absolute;
+  font-family: "Playfair Display", serif;
+  font-size: small;
+  bottom: 400px;
+  left: 700px;
+  color: midnightblue;
+}
+
 .circles * {
   display: flex;
   justify-content: center;
