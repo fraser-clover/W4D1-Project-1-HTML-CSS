@@ -36,39 +36,12 @@ header li {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-.whole-block {
-  margin-right: 10%;
 
-  text-align: center;
-}
-
-.tags {
-  font-size: 10vh;
-  font-family: "Playfair Display SC", serif;
-  font-weight: 400px;
-  text-align: center;
-}
-.inner {
-  font-family: "Playfair Display", serif;
-  font-size: 3vh;
-  margin-left: 40%;
-  text-align: left;
-  word-spacing: 30px;
-  padding-top: 40px;
-}
-
-#closing {
-  margin-right: 20%;
-}
-
-.selectors {
-  color: palevioletred;
-}
 footer ul {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   text-decoration: none;
   list-style: none;
-  padding-top: 150px;
+  padding-top: 700px;
 }
