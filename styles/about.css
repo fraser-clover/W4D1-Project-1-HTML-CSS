@@ -87,6 +87,13 @@ footer ul {
   }
   header {
     font-size: 10px;
+    flex-direction: column;
+  }
+  header ul {
+    padding: 0px;
+  }
+  header h1 {
+    padding-bottom: 0%;
   }
   header img {
     height: 25%;

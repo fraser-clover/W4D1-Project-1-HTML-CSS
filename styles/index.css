@@ -118,29 +118,34 @@ body {
   .home-title-container {
     font-size: 5rem;
     position: relative;
+    bottom: 150px;
     left: 500px;
   }
   .quote {
     font-size: 44px;
     text-align: justify;
-    top: 600px;
+    top: 60%;
     left: 700px;
     width: 600px;
   }
   .circle-one {
-    width: 1200px;
-    height: 1200px;
-    left: 80px;
-    top: 1000px;
+    width: 100em;
+    height: 100em;
+    left: 18vw;
+    top: 150vh;
   }
   .circle-one h3 {
     top: 45%;
     font-size: 50px;
   }
+  .circle-two {
+    height: 1300px;
+    width: 1300px;
+  }
   .circle-four {
-    height: 400px;
-    width: 400px;
-    left: 400px;
+    height: 700px;
+    width: 700px;
+    left: 570px;
     top: 800px;
   }
   .circle-four img {
@@ -153,24 +158,24 @@ body {
     font-size: 40px;
   }
   .circle-three {
-    height: 600px;
-    width: 600px;
+    height: 800px;
+    width: 800px;
     left: 1000px;
-    top: 1200px;
+    top: 1000px;
   }
   .circle-three h3 {
     font-size: 30px;
   }
   .circles-blue-top {
-    height: 300px;
-    width: 300px;
-    bottom: 300px;
-    left: 1100px;
+    height: 600px;
+    width: 600px;
+    bottom: 40%;
+    left: 310%;
   }
   .circles-blue-bottom {
     height: 1000px;
     width: 1000px;
-    top: 2000px;
+    top: 320%;
     left: 800px;
   }
 }
