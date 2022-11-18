@@ -111,7 +111,7 @@ body {
   left: 1500px;
 }
 
-@media screen and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
   body {
     width: 100vw;
   }
@@ -183,5 +183,68 @@ body {
   }
 }
 
-@media only screen and (min-width: 1024px) and (max-width: 1224px) {
+@media screen and (min-width: 700px) and (max-width: 1120px) {
+  .circles-blue-top {
+    height: 2000px;
+    width: 2000px;
+    bottom: 200px;
+    left: 1600px;
+  }
+  .circles-blue-bottom {
+    height: 2000px;
+    width: 2000px;
+    top: 300%;
+    left: 1500px;
+  }
+  .circle-one {
+    width: 150em;
+    height: 150em;
+    left: 18vw;
+    top: 150vh;
+  }
+  .circle-one h3 {
+    top: 45%;
+    font-size: 90px;
+  }
+  .circle-two {
+    height: 2000px;
+    width: 2000px;
+  }
+  .circle-two h3 {
+    top: 40%;
+    left: 70%;
+    font-size: 90px;
+  }
+  .circle-three {
+    height: 1200px;
+    width: 1200px;
+    left: 2000px;
+    top: 1500px;
+  }
+  .circle-three h3 {
+    font-size: 90px;
+  }
+  .circle-four {
+    height: 900px;
+    width: 900px;
+    left: 1050px;
+    top: 1200px;
+  }
+  .circle-four img {
+    width: 100%;
+    height: 100%;
+  }
+  .home-title-container {
+    font-size: 100px;
+    position: relative;
+    bottom: 150px;
+    left: 700px;
+  }
+  .quote {
+    font-size: 75px;
+    text-align: justify;
+    top: 60%;
+    left: 1100px;
+    width: 1000px;
+  }
 }
