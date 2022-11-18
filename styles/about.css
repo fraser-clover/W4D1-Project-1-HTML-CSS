@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap");
-
+html {
+  height: 100%;
+}
 body {
   background: bisque;
   color: darkslateblue;
@@ -69,18 +71,23 @@ footer ul {
   justify-content: space-around;
   text-decoration: none;
   list-style: none;
-  padding-top: 150px;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 @media screen and (max-width: 1024px) {
   .inner {
-    font-size: 10px;
+    font-size: 15px;
     margin-left: 40%;
-    padding-top: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     word-spacing: 0px;
   }
   .tags {
     font-size: 60px;
+  }
+  .tag-top {
+    margin-top: 100px;
   }
   #closing {
     margin-right: 50%;
@@ -98,5 +105,8 @@ footer ul {
   header img {
     height: 25%;
     width: 25%;
+  }
+  footer ul {
+    padding-left: 0%;
   }
 }

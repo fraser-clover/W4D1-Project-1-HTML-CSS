@@ -58,3 +58,29 @@ footer ul {
   padding-top: 70px;
   padding-bottom: 70px;
 }
+@media screen and (max-width: 1024px) {
+  header {
+    font-size: 10px;
+    flex-direction: column;
+  }
+  header ul {
+    padding: 0px;
+  }
+  header h1 {
+    padding-bottom: 0%;
+  }
+  header img {
+    height: 25%;
+    width: 25%;
+  }
+  footer ul {
+    padding-left: 0%;
+  }
+  body > a img {
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    margin-right: 20px;
+    width: 80%;
+  }
+}
