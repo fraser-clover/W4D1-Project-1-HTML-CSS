@@ -16,4 +16,4 @@ A personal website portfolio made with HTML and CSS
 
 ## Mystery Box Page
 
-⍰ Click the link in the website if you are feeling adventurous ⍰
+😊 Click the link in the website if you are feeling adventurous 😊
